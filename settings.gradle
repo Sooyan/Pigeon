@@ -1,1 +1,1 @@
-include ':app', ':pigeon_log', ':app_base', ':app_base', ':app_main', ':lib_log'
+include ':app', ':app_base', ':app_base', ':app_main'
