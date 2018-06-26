@@ -1,1 +1,1 @@
-include ':app', ':app_base', ':app_base', ':app_main'
+include ':app', ':app_base', ':app_main', ':stone_base', ':app_session'
