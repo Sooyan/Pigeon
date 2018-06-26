@@ -1,4 +1,4 @@
-package com.pigeon.log;
+package com.pigeon.main;
 
 import org.junit.Test;
 
