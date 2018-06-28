@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="android:Theme.Light">
+    </style>
+
+<!--************************************************************************************************【CheckBox样式定义】**start**-->
+    <style name="CheckBoxBase">
+    </style>
+
+    <style name="CheckBoxBase.Guilder">
+        <item name="android:layout_width">25dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:button">@null</item>
+        <item name="android:clickable">false</item>
+        <item name="android:duplicateParentState">true</item>
+    </style>
+<!--************************************************************************************************【CheckBox样式定义】**end**-->
+
+<!--************************************************************************************************【TextView样式定义】**start**-->
+    <style name="TextViewBase">
+    </style>
+
+    <style name="TextViewBase.BadgeView">
+        <item name="android:layout_width">@dimen/view_small_v1</item>
+        <item name="android:layout_height">@dimen/view_small_v1</item>
+        <item name="android:background">@drawable/bg_unread_msg_dynamic</item>
+        <item name="android:textColor">@color/font_white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/fond_small_v1</item>
+        <item name="android:singleLine">true</item>
+    </style>
+<!--************************************************************************************************【TextView样式定义】**end**-->
+</resources>

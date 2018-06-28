@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="#eeeeee"
+    android:orientation="horizontal"
+    android:paddingBottom="2dp"
+    android:paddingTop="2dp"
+    android:weightSum="5">
+
+    <FrameLayout
+        android:id="@+id/view_guider_bar_hall_flyt"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <CheckBox
+            style="@style/CheckBoxBase.Guilder"
+            android:background="@drawable/selector_guider_hall"/>
+
+        <TextView
+            style="@style/TextViewBase.BadgeView"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/view_guider_bar_message_flyt"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <CheckBox
+            style="@style/CheckBoxBase.Guilder"
+            android:background="@drawable/selector_guider_message"/>
+
+        <TextView
+            style="@style/TextViewBase.BadgeView"/>
+    </FrameLayout>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+    <FrameLayout
+        android:id="@+id/view_guider_bar_contacts_flyt"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <CheckBox
+            style="@style/CheckBoxBase.Guilder"
+            android:background="@drawable/selector_guider_contacts"/>
+
+        <TextView
+            style="@style/TextViewBase.BadgeView"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/view_guider_bar_me_flyt"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <CheckBox
+            style="@style/CheckBoxBase.Guilder"
+            android:background="@drawable/selector_guider_me"/>
+
+        <TextView
+            style="@style/TextViewBase.BadgeView"/>
+    </FrameLayout>
+
+</LinearLayout>
