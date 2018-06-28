@@ -3,6 +3,17 @@
     <style name="AppTheme" parent="android:Theme.Light">
     </style>
 
+<!--************************************************************************************************【Layout样式定义】**start**-->
+    <style name="LayoutBase">
+    </style>
+
+    <style name="LayoutBase.Content">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background"></item>
+    </style>
+<!--************************************************************************************************【Layout样式定义】**end**-->
+
 <!--************************************************************************************************【CheckBox样式定义】**start**-->
     <style name="CheckBoxBase">
     </style>
